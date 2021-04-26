@@ -1,0 +1,36 @@
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindSandbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white">
+
+  <div class="grid lg:grid-cols-2 2xl:grid-cols-5">
+    <div class="px-8 py-12 mx-w-md mx-auto sm:max-w-xl lg:px-12 lg:py-24 lg:max-w-full xl:mr-0 2xl:col-span-2">
+      <div class="xl:max-w-xl ">
+        <img class="h-48" src="img/logo3.png" alt="logo">
+        <img class="h-72 mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover object-center lg:hidden" src="img/beach.jpg" alt="">
+        <h1 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl">You can work from any where.
+          <span class="text-indigo-500"><br class="sm:hidden lg:inline">Take advantage of it.</span></h1>
+        <p class="mt-2 text-gray-700 sm:mt-4 sm:text-xl">
+          Maecenas id lacus quis tortor sollicitudin <br>
+          venenatis vitae quis arcu. Nam ligula metus, <br>
+          rutrum mattis tempor a, imperdiet nec urna. <br>
+          Morbi vel eros quam.
+        </p>
+        <div class="mt-4 sm:mt-6">
+        <a class="inline-block text-white bg-indigo-500 px-5 py-3 rounded-lg shadow-lg uppercase tracking-wider font-semibold text-sm sm:text-base" 
+        href="#">Book your escape</a>
+        </div>
+      </div>      
+      
+    </div>
+    <div class="hidden lg:block relative 2xl:col-span-3">
+      <img class="absolute instet-0 w-full h-full object-cover object-center" src="img/beach.jpg" alt="">
+    </div>
+  </div>
+</body>
+</html>
